@@ -5,9 +5,10 @@ interface TransactionsCardProps {
     date: string;
     image: string;
     wellnessIndex: string;
+    showWellnessIndex: boolean;
 }
 
-function TransactionsCard({image, title, date, wellnessIndex}: TransactionsCardProps) {
+function TransactionsCard({image, title, date, wellnessIndex, showWellnessIndex}: TransactionsCardProps) {
     return (
         <div className="card">
             <div className="card-content">
@@ -16,7 +17,7 @@ function TransactionsCard({image, title, date, wellnessIndex}: TransactionsCardP
                 <p>{date}</p>
             </div>
             <div className="wellness-index">
-                <p><strong>{wellnessIndex}</strong></p>
+                {showWellnessIndex ? <p><strong>{wellnessIndex}</strong></p> : <p></p>}
             </div>
         </div>
     )
