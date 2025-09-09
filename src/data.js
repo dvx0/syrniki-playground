@@ -23,7 +23,7 @@ const alicia = {
         wellnessIndex: "80",
         age: 30,
         sex: "Male",
-    },    
+    },
     { 
         image: "https://images.unsplash.com/photo-1599566150163-29194dcaad36",
         name: "Larry O.",
@@ -38,6 +38,14 @@ const alicia = {
         diagnosis: "Depression",
         wellnessIndex: "12",
         age: 25,
+        sex: "Female",
+    },
+    { 
+        image: "",
+        name: "Sarah H.",
+        diagnosis: "Bipolar",
+        wellnessIndex: "66",
+        age: 42,
         sex: "Female",
     },
   ]
