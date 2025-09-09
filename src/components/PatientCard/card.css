@@ -32,6 +32,11 @@
 
 .card-content-name {
     display: flex;
+    width: 80px;
+}
+
+.card-content-demographics  {
+    display: flex;
     width: 100px;
 }
 
