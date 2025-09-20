@@ -6,7 +6,7 @@ interface PatientCardProps {
     image: string;
     age: number;
     sex: string;
-    wellnessIndex: string;
+    wellnessIndex: number;
     showWellnessIndex: boolean;
 }
 
